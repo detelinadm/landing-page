@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Detelina Marinova — DevOps</title>
+  <link rel="stylesheet" href="/static/style.css?v=1" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <h1>Detelina Marinova</h1>
+        <p class="subtitle">DevOps Engineering student</p>
+        <p class="small">
+          Malmö, Sweden
+        </p>
+
+        <div class="buttons">
+          <a class="btn" href="https://www.linkedin.com/in/detelina-marinova-200203239/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn" href="https://github.com/detelinadm" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="/static/docs/DETELINA MARINOVA junior DEVOPS.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+        </div>
+      </div>
+
+      <div class="card fun">
+        <h3>Would you hire me?</h3>
+        <div class="buttons">
+          <button id="hireYes" class="btn btn-primary" type="button">Yes</button>
+          <button id="hireNo" class="btn" type="button">No</button>
+        </div>
+        <div id="funResult" class="fun-result" aria-live="polite"></div>
+      </div>
+    </header>
+
+    <section class="section" id="dashboard">
+      <h2>DevOps Dashboard</h2>
+      <p class="small">Live info from the backend APIs.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Health</h3>
+          <p id="tileHealth" class="mono">Loading…</p>
+        </div>
+
+        <div class="card">
+          <h3>Version</h3>
+          <p id="tileVersion" class="mono">Loading…</p>
+        </div>
+
+        <div class="card">
+          <h3>Uptime</h3>
+          <p id="tileUptime" class="mono">Loading…</p>
+        </div>
+
+        <div class="card">
+          <h3>CI/CD</h3>
+          <p class="small">GitHub Actions badge (replace repo URL):</p>
+          <img
+            alt="CI"
+            src="https://github.com/detelinadm"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Ask my CV</h2>
+      <p class="small">Answers are generated from my resume text only.</p>
+
+      <div class="card">
+        <textarea id="cvQuestion" rows="3" style="width:100%;" placeholder="e.g., What Azure DevOps experience do you have?"></textarea>
+        <div class="buttons">
+          <button id="askBtn" class="btn btn-primary" type="button">Ask</button>
+        </div>
+        <p id="cvAnswer" class="small" style="white-space: pre-wrap; margin-top: 10px;"></p>
+      </div>
+    </section>
+
+
+    <footer class="footer small">
+      Built with FastAPI • Docker • Terraform
+    </footer>
+  </main>
+
+    <div id="incidentModal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close="true"></div>
+
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="incidentTitle">
+    <button id="incidentClose" class="modal-close" type="button" aria-label="Close">×</button>
+
+    <div id="incidentContent"></div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="/static/home.js"></script>
+</body>
+</html>

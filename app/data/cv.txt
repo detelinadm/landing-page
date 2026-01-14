@@ -1,0 +1,82 @@
+Detelina Marinova
+Malmo, Sweden • detelinadmarinova@gmail.com • +46793514028 • LinkedIn
+Profile
+Junior DevOps/Platform Engineer candidate with hands-on Azure DevOps CI/CD, IaC, Docker, and Azure deployments
+through internship and projects.
+Education
+Jensen YH
+Malmo, Sweden
+DevOps Engineering
+2024 – 2026
+Experience
+City, State
+DevOps Engineer Intern @ Sigma Technology, Lund Sweden
+September 2025 – December 2025
+• Improved Azure DevOps CI/CD pipelines by adding caching and optimizing build steps, reducing build time and
+increasing reliability.
+• Added basic monitoring with Azure Application Insights including Availability tests to verify endpoint uptime.
+• Reconfigured Docker/Solr setup to use repository-based configuration, increasing portability and maintainability.
+• Investigated migration of Azure DevOps pipelines to GitHub Actions, analysing constraints in existing Azure/IIS
+infrastructure.
+• Built and deployed a full-stack weather app as a hands-on DevOps project using Docker, Python (Flask), React,
+Terraform, Azure Container Instances and GitHub Actions.
+Projects
+Containerized Multi-Service Flask Application with Docker Compose (Course Project)
+April 2025
+• Containerized Flask-based frontend and backend services and orchestrated them with Docker Compose
+• Used Traefik as reverse proxy and load balancer on port 80, routing traffic to three frontend instances and one
+backend service
+• Integrated Redis as a shared data store and configured Traefik dashboard and access logging, with the whole
+stack started via a single ‘docker compose up -d’
+Testing a Flask Web Application (Course Project)
+April 2025
+• Collaborated in a team to design and implement a comprehensive testing suite for an existing Flask web
+application
+• Created and executed unit tests to validate backend logic and route responses
+• Wrote integration tests to verify interaction between Flask routes, form inputs
+• Applied testing principles such as black-box testing, test case design, and test coverage analysis
+AWS Infrastructure Automation with OpenTofu & Ansible (Course Project)
+• Designed and deployed infrastructure on AWS using OpenTofu for IaC and Ansible for provisioning
+• Automated deployment of EC2 instances and security configurations
+• Wrote modular templates and playbooks, integrating variables and dynamic inventory
+• Demonstrated ability to apply DevOps principles and manage cloud-based deployments
+March 2025
+Single-Player Python Game with SCRUM Methodology (Course Project)
+February 2025
+• Collaborated in a team of 5 to develop a simple 2D single-player game using Python (Pygame) and managed workflow
+using SCRUM practices
+• Participated in sprint planning, standups, retrospectives, and backlog management
+• Gained real-world exposure to Agile software development, version control, and team collaboration tools
+(GitHub)
+Inventory Management Console App in Java (Course Project)
+November 2024
+• Developed a Java-based console application to manage inventory operations, including product tracking, stock•
+Detelina Marinova
+updates, and user interaction via a CLI
+Applied OOP principles to structure reusable, modular code
+MySQL Database for Solar Bed Business (Independent Project)
+Summer 2023
+• Designed and implemented a relational database using MySQL to manage inventory, client data, and sales operations
+for a small solar bed company
+• Defined optimized schema, set up foreign key relationships, and created custom queries for data retrieval
+and reporting
+Leadership & Activities
+CEMES students
+Inter-University Student Leader
+February 2024 - Now
+• Lead an inter-university student initiative connecting students from Lund, Malmö, and Copenhagen universities
+• Spearhead collaborative projects focused on European identity, culture, and academic exchange
+• Organize multicultural events, panel discussions, and networking sessions to foster cross-border student
+engagement
+• Promote inclusivity and shared values within a diverse academic community across the Öresund region
+Skills
+DevOps & Cloud: Azure, AWS, Azure DevOps, GitHub Actions, Terraform, Ansible, Docker, IaC, CI/CD
+Languages & Scripting: Python, Java, Bash
+App env: .NET, Java, Python
+Web & Servers: Flask, Gunicorn, Nginx
+Databases: MySQL, PostgreSQL
+Observability: Azure Application Insights
+Tools & Practices: Git, GitHub, Jira, SCRUM, automated testing
+Note: Hands-on experience through personal and academic projects; actively building proficiency in all listed tools.
+Language: English, Swedish, Bulgarian
+Interests: Skydiving, Motorcycling, Weightlifting
